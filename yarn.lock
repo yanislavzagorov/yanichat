@@ -1166,6 +1166,259 @@
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@csstools/normalize.css/-/normalize.css-10.1.0.tgz#f0950bba18819512d42f7197e56c518aa491cf18"
   integrity sha1-8JULuhiBlRLUL3GX5WxRiqSRzxg=
 
+"@firebase/analytics-types@0.4.0":
+  version "0.4.0"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@firebase/analytics-types/-/analytics-types-0.4.0.tgz#d6716f9fa36a6e340bc0ecfe68af325aa6f60508"
+  integrity sha1-1nFvn6NqbjQLwOz+aK8yWqb2BQg=
+
+"@firebase/analytics@0.5.0":
+  version "0.5.0"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@firebase/analytics/-/analytics-0.5.0.tgz#587292ec9a24410ad795a65c07fb1ea238ccef95"
+  integrity sha1-WHKS7JokQQrXlaZcB/seojjM75U=
+  dependencies:
+    "@firebase/analytics-types" "0.4.0"
+    "@firebase/component" "0.1.19"
+    "@firebase/installations" "0.4.17"
+    "@firebase/logger" "0.2.6"
+    "@firebase/util" "0.3.2"
+    tslib "^1.11.1"
+
+"@firebase/app-types@0.6.1":
+  version "0.6.1"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@firebase/app-types/-/app-types-0.6.1.tgz#dcbd23030a71c0c74fc95d4a3f75ba81653850e9"
+  integrity sha1-3L0jAwpxwMdPyV1KP3W6gWU4UOk=
+
+"@firebase/app@0.6.11":
+  version "0.6.11"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@firebase/app/-/app-0.6.11.tgz#f73f9e4571ba62f4029d8f9c9880a97e5a94eb1d"
+  integrity sha1-9z+eRXG6YvQCnY+cmICpflqU6x0=
+  dependencies:
+    "@firebase/app-types" "0.6.1"
+    "@firebase/component" "0.1.19"
+    "@firebase/logger" "0.2.6"
+    "@firebase/util" "0.3.2"
+    dom-storage "2.1.0"
+    tslib "^1.11.1"
+    xmlhttprequest "1.8.0"
+
+"@firebase/auth-interop-types@0.1.5":
+  version "0.1.5"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@firebase/auth-interop-types/-/auth-interop-types-0.1.5.tgz#9fc9bd7c879f16b8d1bb08373a0f48c3a8b74557"
+  integrity sha1-n8m9fIefFrjRuwg3Og9Iw6i3RVc=
+
+"@firebase/auth-types@0.10.1":
+  version "0.10.1"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@firebase/auth-types/-/auth-types-0.10.1.tgz#7815e71c9c6f072034415524b29ca8f1d1770660"
+  integrity sha1-eBXnHJxvByA0QVUkspyo8dF3BmA=
+
+"@firebase/auth@0.14.9":
+  version "0.14.9"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@firebase/auth/-/auth-0.14.9.tgz#481db24d5bd6eded8ac2e5aea6edb9307040229c"
+  integrity sha1-SB2yTVvW7e2KwuWupu25MHBAIpw=
+  dependencies:
+    "@firebase/auth-types" "0.10.1"
+
+"@firebase/component@0.1.19":
+  version "0.1.19"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@firebase/component/-/component-0.1.19.tgz#bd2ac601652c22576b574c08c40da245933dbac7"
+  integrity sha1-vSrGAWUsIldrV0wIxA2iRZM9usc=
+  dependencies:
+    "@firebase/util" "0.3.2"
+    tslib "^1.11.1"
+
+"@firebase/database-types@0.5.2":
+  version "0.5.2"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@firebase/database-types/-/database-types-0.5.2.tgz#23bec8477f84f519727f165c687761e29958b63c"
+  integrity sha1-I77IR3+E9RlyfxZcaHdh4plYtjw=
+  dependencies:
+    "@firebase/app-types" "0.6.1"
+
+"@firebase/database@0.6.13":
+  version "0.6.13"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@firebase/database/-/database-0.6.13.tgz#b96fe0c53757dd6404ee085fdcb45c0f9f525c17"
+  integrity sha1-uW/gxTdX3WQE7ghf3LRcD59SXBc=
+  dependencies:
+    "@firebase/auth-interop-types" "0.1.5"
+    "@firebase/component" "0.1.19"
+    "@firebase/database-types" "0.5.2"
+    "@firebase/logger" "0.2.6"
+    "@firebase/util" "0.3.2"
+    faye-websocket "0.11.3"
+    tslib "^1.11.1"
+
+"@firebase/firestore-types@1.13.0":
+  version "1.13.0"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@firebase/firestore-types/-/firestore-types-1.13.0.tgz#4ab9c40e1e66e8193a929460d64507acd07d9230"
+  integrity sha1-SrnEDh5m6Bk6kpRg1kUHrNB9kjA=
+
+"@firebase/firestore@1.17.1":
+  version "1.17.1"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@firebase/firestore/-/firestore-1.17.1.tgz#fba94eef755e48b6aa31a586311e3f0a946aafe5"
+  integrity sha1-+6lO73VeSLaqMaWGMR4/CpRqr+U=
+  dependencies:
+    "@firebase/component" "0.1.19"
+    "@firebase/firestore-types" "1.13.0"
+    "@firebase/logger" "0.2.6"
+    "@firebase/util" "0.3.2"
+    "@firebase/webchannel-wrapper" "0.3.0"
+    "@grpc/grpc-js" "^1.0.0"
+    "@grpc/proto-loader" "^0.5.0"
+    node-fetch "2.6.1"
+    tslib "^1.11.1"
+
+"@firebase/functions-types@0.3.17":
+  version "0.3.17"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@firebase/functions-types/-/functions-types-0.3.17.tgz#348bf5528b238eeeeeae1d52e8ca547b21d33a94"
+  integrity sha1-NIv1Uosjju7urh1S6MpUeyHTOpQ=
+
+"@firebase/functions@0.4.51":
+  version "0.4.51"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@firebase/functions/-/functions-0.4.51.tgz#97be571cfe3b9ee3bf289b9dc5194e3ae49a4819"
+  integrity sha1-l75XHP47nuO/KJudxRlOOuSaSBk=
+  dependencies:
+    "@firebase/component" "0.1.19"
+    "@firebase/functions-types" "0.3.17"
+    "@firebase/messaging-types" "0.5.0"
+    isomorphic-fetch "2.2.1"
+    tslib "^1.11.1"
+
+"@firebase/installations-types@0.3.4":
+  version "0.3.4"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@firebase/installations-types/-/installations-types-0.3.4.tgz#589a941d713f4f64bf9f4feb7f463505bab1afa2"
+  integrity sha1-WJqUHXE/T2S/n0/rf0Y1Bbqxr6I=
+
+"@firebase/installations@0.4.17":
+  version "0.4.17"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@firebase/installations/-/installations-0.4.17.tgz#1367b721e2c6c4880646bbc4f257e8616986a004"
+  integrity sha1-E2e3IeLGxIgGRrvE8lfoYWmGoAQ=
+  dependencies:
+    "@firebase/component" "0.1.19"
+    "@firebase/installations-types" "0.3.4"
+    "@firebase/util" "0.3.2"
+    idb "3.0.2"
+    tslib "^1.11.1"
+
+"@firebase/logger@0.2.6":
+  version "0.2.6"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@firebase/logger/-/logger-0.2.6.tgz#3aa2ca4fe10327cabf7808bd3994e88db26d7989"
+  integrity sha1-OqLKT+EDJ8q/eAi9OZTojbJteYk=
+
+"@firebase/messaging-types@0.5.0":
+  version "0.5.0"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@firebase/messaging-types/-/messaging-types-0.5.0.tgz#c5d0ef309ced1758fda93ef3ac70a786de2e73c4"
+  integrity sha1-xdDvMJztF1j9qT7zrHCnht4uc8Q=
+
+"@firebase/messaging@0.7.1":
+  version "0.7.1"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@firebase/messaging/-/messaging-0.7.1.tgz#debbe7eb17c5b789231da6c166c506e19ecf1ed4"
+  integrity sha1-3rvn6xfFt4kjHabBZsUG4Z7PHtQ=
+  dependencies:
+    "@firebase/component" "0.1.19"
+    "@firebase/installations" "0.4.17"
+    "@firebase/messaging-types" "0.5.0"
+    "@firebase/util" "0.3.2"
+    idb "3.0.2"
+    tslib "^1.11.1"
+
+"@firebase/performance-types@0.0.13":
+  version "0.0.13"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@firebase/performance-types/-/performance-types-0.0.13.tgz#58ce5453f57e34b18186f74ef11550dfc558ede6"
+  integrity sha1-WM5UU/V+NLGBhvdO8RVQ38VY7eY=
+
+"@firebase/performance@0.4.1":
+  version "0.4.1"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@firebase/performance/-/performance-0.4.1.tgz#4e78f406ef2bc0eec2ce67cdfc57a53a55c31476"
+  integrity sha1-Tnj0Bu8rwO7CzmfN/FelOlXDFHY=
+  dependencies:
+    "@firebase/component" "0.1.19"
+    "@firebase/installations" "0.4.17"
+    "@firebase/logger" "0.2.6"
+    "@firebase/performance-types" "0.0.13"
+    "@firebase/util" "0.3.2"
+    tslib "^1.11.1"
+
+"@firebase/polyfill@0.3.36":
+  version "0.3.36"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@firebase/polyfill/-/polyfill-0.3.36.tgz#c057cce6748170f36966b555749472b25efdb145"
+  integrity sha1-wFfM5nSBcPNpZrVVdJRysl79sUU=
+  dependencies:
+    core-js "3.6.5"
+    promise-polyfill "8.1.3"
+    whatwg-fetch "2.0.4"
+
+"@firebase/remote-config-types@0.1.9":
+  version "0.1.9"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@firebase/remote-config-types/-/remote-config-types-0.1.9.tgz#fe6bbe4d08f3b6e92fce30e4b7a9f4d6a96d6965"
+  integrity sha1-/mu+TQjztukvzjDkt6n01qltaWU=
+
+"@firebase/remote-config@0.1.28":
+  version "0.1.28"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@firebase/remote-config/-/remote-config-0.1.28.tgz#1c39916446f1ed82b4c07e556455bd232fcfd8e1"
+  integrity sha1-HDmRZEbx7YK0wH5VZFW9Iy/P2OE=
+  dependencies:
+    "@firebase/component" "0.1.19"
+    "@firebase/installations" "0.4.17"
+    "@firebase/logger" "0.2.6"
+    "@firebase/remote-config-types" "0.1.9"
+    "@firebase/util" "0.3.2"
+    tslib "^1.11.1"
+
+"@firebase/storage-types@0.3.13":
+  version "0.3.13"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@firebase/storage-types/-/storage-types-0.3.13.tgz#cd43e939a2ab5742e109eb639a313673a48b5458"
+  integrity sha1-zUPpOaKrV0LhCetjmjE2c6SLVFg=
+
+"@firebase/storage@0.3.43":
+  version "0.3.43"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@firebase/storage/-/storage-0.3.43.tgz#107fb5db2eff2561b5c4e35ee4cbff48f28c7e77"
+  integrity sha1-EH+12y7/JWG1xONe5Mv/SPKMfnc=
+  dependencies:
+    "@firebase/component" "0.1.19"
+    "@firebase/storage-types" "0.3.13"
+    "@firebase/util" "0.3.2"
+    tslib "^1.11.1"
+
+"@firebase/util@0.3.2":
+  version "0.3.2"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@firebase/util/-/util-0.3.2.tgz#87de27f9cffc2324651cabf6ec133d0a9eb21b52"
+  integrity sha1-h94n+c/8IyRlHKv27BM9Cp6yG1I=
+  dependencies:
+    tslib "^1.11.1"
+
+"@firebase/webchannel-wrapper@0.3.0":
+  version "0.3.0"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@firebase/webchannel-wrapper/-/webchannel-wrapper-0.3.0.tgz#d1689566b94c25423d1fb2cb031c5c2ea4c9f939"
+  integrity sha1-0WiVZrlMJUI9H7LLAxxcLqTJ+Tk=
+
+"@grpc/grpc-js@^1.0.0":
+  version "1.1.7"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@grpc/grpc-js/-/grpc-js-1.1.7.tgz#d3d71c6da95397e2d63895ccc4a05e7572f7b7e6"
+  integrity sha1-09ccbalTl+LWOJXMxKBedXL3t+Y=
+  dependencies:
+    "@grpc/proto-loader" "^0.6.0-pre14"
+    "@types/node" "^12.12.47"
+    google-auth-library "^6.0.0"
+    semver "^6.2.0"
+
+"@grpc/proto-loader@^0.5.0":
+  version "0.5.5"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@grpc/proto-loader/-/proto-loader-0.5.5.tgz#6725e7a1827bdf8e92e29fbf4e9ef0203c0906a9"
+  integrity sha1-ZyXnoYJ7346S4p+/Tp7wIDwJBqk=
+  dependencies:
+    lodash.camelcase "^4.3.0"
+    protobufjs "^6.8.6"
+
+"@grpc/proto-loader@^0.6.0-pre14":
+  version "0.6.0-pre9"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@grpc/proto-loader/-/proto-loader-0.6.0-pre9.tgz#0c6fe42f6c5ef9ce1b3cef7be64d5b09d6fe4d6d"
+  integrity sha1-DG/kL2xe+c4bPO975k1bCdb+TW0=
+  dependencies:
+    "@types/long" "^4.0.1"
+    lodash.camelcase "^4.3.0"
+    long "^4.0.0"
+    protobufjs "^6.9.0"
+    yargs "^15.3.1"
+
 "@hapi/address@2.x.x":
   version "2.1.4"
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@hapi/address/-/address-2.1.4.tgz#5d67ed43f3fd41a69d4b9ff7b56e7c0d1d0a81e5"
@@ -1379,6 +1632,59 @@
   version "1.1.3"
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha1-K1o6s/kYzKSKjHVMCBaOPwPrphs=
+
+"@protobufjs/aspromise@^1.1.1", "@protobufjs/aspromise@^1.1.2":
+  version "1.1.2"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@protobufjs/aspromise/-/aspromise-1.1.2.tgz#9b8b0cc663d669a7d8f6f5d0893a14d348f30fbf"
+  integrity sha1-m4sMxmPWaafY9vXQiToU00jzD78=
+
+"@protobufjs/base64@^1.1.2":
+  version "1.1.2"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@protobufjs/base64/-/base64-1.1.2.tgz#4c85730e59b9a1f1f349047dbf24296034bb2735"
+  integrity sha1-TIVzDlm5ofHzSQR9vyQpYDS7JzU=
+
+"@protobufjs/codegen@^2.0.4":
+  version "2.0.4"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@protobufjs/codegen/-/codegen-2.0.4.tgz#7ef37f0d010fb028ad1ad59722e506d9262815cb"
+  integrity sha1-fvN/DQEPsCitGtWXIuUG2SYoFcs=
+
+"@protobufjs/eventemitter@^1.1.0":
+  version "1.1.0"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@protobufjs/eventemitter/-/eventemitter-1.1.0.tgz#355cbc98bafad5978f9ed095f397621f1d066b70"
+  integrity sha1-NVy8mLr61ZePntCV85diHx0Ga3A=
+
+"@protobufjs/fetch@^1.1.0":
+  version "1.1.0"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@protobufjs/fetch/-/fetch-1.1.0.tgz#ba99fb598614af65700c1619ff06d454b0d84c45"
+  integrity sha1-upn7WYYUr2VwDBYZ/wbUVLDYTEU=
+  dependencies:
+    "@protobufjs/aspromise" "^1.1.1"
+    "@protobufjs/inquire" "^1.1.0"
+
+"@protobufjs/float@^1.0.2":
+  version "1.0.2"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@protobufjs/float/-/float-1.0.2.tgz#5e9e1abdcb73fc0a7cb8b291df78c8cbd97b87d1"
+  integrity sha1-Xp4avctz/Ap8uLKR33jIy9l7h9E=
+
+"@protobufjs/inquire@^1.1.0":
+  version "1.1.0"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@protobufjs/inquire/-/inquire-1.1.0.tgz#ff200e3e7cf2429e2dcafc1140828e8cc638f089"
+  integrity sha1-/yAOPnzyQp4tyvwRQIKOjMY48Ik=
+
+"@protobufjs/path@^1.1.2":
+  version "1.1.2"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@protobufjs/path/-/path-1.1.2.tgz#6cc2b20c5c9ad6ad0dccfd21ca7673d8d7fbf68d"
+  integrity sha1-bMKyDFya1q0NzP0hynZz2Nf79o0=
+
+"@protobufjs/pool@^1.1.0":
+  version "1.1.0"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@protobufjs/pool/-/pool-1.1.0.tgz#09fd15f2d6d3abfa9b65bc366506d6ad7846ff54"
+  integrity sha1-Cf0V8tbTq/qbZbw2ZQbWrXhG/1Q=
+
+"@protobufjs/utf8@^1.1.0":
+  version "1.1.0"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@protobufjs/utf8/-/utf8-1.1.0.tgz#a777360b5b39a1a2e5106f8e858f2fd2d060c570"
+  integrity sha1-p3c2C1s5oaLlEG+OhY8v0tBgxXA=
 
 "@sheerun/mutationobserver-shim@^0.3.2":
   version "0.3.3"
@@ -1631,6 +1937,11 @@
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@types/json-schema/-/json-schema-7.0.6.tgz#f4c7ec43e81b319a9815115031709f26987891f0"
   integrity sha1-9MfsQ+gbMZqYFRFQMXCfJph4kfA=
 
+"@types/long@^4.0.1":
+  version "4.0.1"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@types/long/-/long-4.0.1.tgz#459c65fa1867dafe6a8f322c4c51695663cc55e9"
+  integrity sha1-RZxl+hhn2v5qjzIsTFFpVmPMVek=
+
 "@types/minimatch@*":
   version "3.0.3"
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@types/minimatch/-/minimatch-3.0.3.tgz#3dca0e3f33b200fc7d1139c0cd96c1268cadfd9d"
@@ -1640,6 +1951,16 @@
   version "14.11.2"
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@types/node/-/node-14.11.2.tgz#2de1ed6670439387da1c9f549a2ade2b0a799256"
   integrity sha1-LeHtZnBDk4faHJ9UmireKwp5klY=
+
+"@types/node@^12.12.47":
+  version "12.12.62"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@types/node/-/node-12.12.62.tgz#733923d73669188d35950253dd18a21570085d2b"
+  integrity sha1-czkj1zZpGI01lQJT3RiiFXAIXSs=
+
+"@types/node@^13.7.0":
+  version "13.13.21"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/@types/node/-/node-13.13.21.tgz#e48d3c2e266253405cf404c8654d1bcf0d333e5c"
+  integrity sha1-5I08LiZiU0Bc9ATIZU0bzw0zPlw=
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
@@ -1922,6 +2243,13 @@ abab@^2.0.0:
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/abab/-/abab-2.0.5.tgz#c0b678fb32d60fc1219c784d6a826fe385aeb79a"
   integrity sha1-wLZ4+zLWD8EhnHhNaoJv44Wut5o=
 
+abort-controller@^3.0.0:
+  version "3.0.0"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/abort-controller/-/abort-controller-3.0.0.tgz#eaf54d53b62bae4138e809ca225c8439a6efb392"
+  integrity sha1-6vVNU7YrrkE46AnKIlyEOabvs5I=
+  dependencies:
+    event-target-shim "^5.0.0"
+
 accepts@~1.3.4, accepts@~1.3.5, accepts@~1.3.7:
   version "1.3.7"
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/accepts/-/accepts-1.3.7.tgz#531bc726517a3b2b41f850021c6cc15eaab507cd"
@@ -1978,6 +2306,13 @@ adjust-sourcemap-loader@2.0.0:
     loader-utils "1.2.3"
     object-path "0.11.4"
     regex-parser "2.2.10"
+
+agent-base@6:
+  version "6.0.1"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/agent-base/-/agent-base-6.0.1.tgz#808007e4e5867decb0ab6ab2f928fbdb5a596db4"
+  integrity sha1-gIAH5OWGfeywq2qy+Sj721pZbbQ=
+  dependencies:
+    debug "4"
 
 aggregate-error@^3.0.0:
   version "3.1.0"
@@ -2191,6 +2526,11 @@ arrify@^1.0.1:
   version "1.0.1"
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/arrify/-/arrify-1.0.1.tgz#898508da2226f380df904728456849c1501a4b0d"
   integrity sha1-iYUI2iIm84DfkEcoRWhJwVAaSw0=
+
+arrify@^2.0.0:
+  version "2.0.1"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/arrify/-/arrify-2.0.1.tgz#c9655e9331e0abcd588d2a7cad7e9956f66701fa"
+  integrity sha1-yWVekzHgq81YjSp8rX6ZVvZnAfo=
 
 asap@~2.0.6:
   version "2.0.6"
@@ -2459,7 +2799,7 @@ balanced-match@^1.0.0:
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/balanced-match/-/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
   integrity sha1-ibTRmasr7kneFk6gK4nORi1xt2c=
 
-base64-js@^1.0.2:
+base64-js@^1.0.2, base64-js@^1.3.0:
   version "1.3.1"
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/base64-js/-/base64-js-1.3.1.tgz#58ece8cb75dd07e71ed08c736abc5fac4dbf8df1"
   integrity sha1-WOzoy3XdB+ce0IxzarxfrE2/jfE=
@@ -2493,6 +2833,11 @@ big.js@^5.2.2:
   version "5.2.2"
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/big.js/-/big.js-5.2.2.tgz#65f0af382f578bcdc742bd9c281e9cb2d7768328"
   integrity sha1-ZfCvOC9Xi83HQr2cKB6cstd2gyg=
+
+bignumber.js@^9.0.0:
+  version "9.0.0"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/bignumber.js/-/bignumber.js-9.0.0.tgz#805880f84a329b5eac6e7cb6f8274b6d82bdf075"
+  integrity sha1-gFiA+Eoym16sbny2+CdLbYK98HU=
 
 binary-extensions@^1.0.0:
   version "1.13.1"
@@ -2694,6 +3039,11 @@ bser@2.1.1:
   integrity sha1-5nh9og7OnQeZhTPP2d5vXDj0vAU=
   dependencies:
     node-int64 "^0.4.0"
+
+buffer-equal-constant-time@1.0.1:
+  version "1.0.1"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/buffer-equal-constant-time/-/buffer-equal-constant-time-1.0.1.tgz#f8e71132f7ffe6e01a5c9697a4c6f3e48d5cc819"
+  integrity sha1-+OcRMvf/5uAaXJaXpMbz5I1cyBk=
 
 buffer-from@^1.0.0:
   version "1.1.1"
@@ -3021,6 +3371,15 @@ cliui@^5.0.0:
     strip-ansi "^5.2.0"
     wrap-ansi "^5.1.0"
 
+cliui@^6.0.0:
+  version "6.0.0"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/cliui/-/cliui-6.0.0.tgz#511d702c0c4e41ca156d7d0e96021f23e13225b1"
+  integrity sha1-UR1wLAxOQcoVbX0OlgIfI+EyJbE=
+  dependencies:
+    string-width "^4.2.0"
+    strip-ansi "^6.0.0"
+    wrap-ansi "^6.2.0"
+
 clone-deep@^0.2.4:
   version "0.2.4"
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/clone-deep/-/clone-deep-0.2.4.tgz#4e73dd09e9fb971cc38670c5dced9c1896481cc6"
@@ -3271,15 +3630,15 @@ core-js-pure@^3.0.0:
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/core-js-pure/-/core-js-pure-3.6.5.tgz#c79e75f5e38dbc85a662d91eea52b8256d53b813"
   integrity sha1-x5519eONvIWmYtke6lK4JW1TuBM=
 
+core-js@3.6.5, core-js@^3.5.0:
+  version "3.6.5"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/core-js/-/core-js-3.6.5.tgz#7395dc273af37fb2e50e9bd3d9fe841285231d1a"
+  integrity sha1-c5XcJzrzf7LlDpvT2f6EEoUjHRo=
+
 core-js@^2.4.0:
   version "2.6.11"
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/core-js/-/core-js-2.6.11.tgz#38831469f9922bded8ee21c9dc46985e0399308c"
   integrity sha1-OIMUafmSK97Y7iHJ3EaYXgOZMIw=
-
-core-js@^3.5.0:
-  version "3.6.5"
-  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/core-js/-/core-js-3.6.5.tgz#7395dc273af37fb2e50e9bd3d9fe841285231d1a"
-  integrity sha1-c5XcJzrzf7LlDpvT2f6EEoUjHRo=
 
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
@@ -3642,19 +4001,19 @@ debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0, debug@^2.6.9:
   dependencies:
     ms "2.0.0"
 
+debug@4, debug@^4.0.1, debug@^4.1.0, debug@^4.1.1:
+  version "4.2.0"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/debug/-/debug-4.2.0.tgz#7f150f93920e94c58f5574c2fd01a3110effe7f1"
+  integrity sha1-fxUPk5IOlMWPVXTC/QGjEQ7/5/E=
+  dependencies:
+    ms "2.1.2"
+
 debug@^3.1.1, debug@^3.2.5:
   version "3.2.6"
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/debug/-/debug-3.2.6.tgz#e83d17de16d8a7efb7717edbe5fb10135eee629b"
   integrity sha1-6D0X3hbYp++3cX7b5fsQE17uYps=
   dependencies:
     ms "^2.1.1"
-
-debug@^4.0.1, debug@^4.1.0, debug@^4.1.1:
-  version "4.2.0"
-  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/debug/-/debug-4.2.0.tgz#7f150f93920e94c58f5574c2fd01a3110effe7f1"
-  integrity sha1-fxUPk5IOlMWPVXTC/QGjEQ7/5/E=
-  dependencies:
-    ms "2.1.2"
 
 decamelize@^1.2.0:
   version "1.2.0"
@@ -3863,6 +4222,11 @@ dom-serializer@0:
     domelementtype "^2.0.1"
     entities "^2.0.0"
 
+dom-storage@2.1.0:
+  version "2.1.0"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/dom-storage/-/dom-storage-2.1.0.tgz#00fb868bc9201357ea243c7bcfd3304c1e34ea39"
+  integrity sha1-APuGi8kgE1fqJDx7z9MwTB406jk=
+
 domain-browser@^1.1.1:
   version "1.2.0"
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/domain-browser/-/domain-browser-1.2.0.tgz#3d31f50191a6749dd1375a7f522e823d42e54eda"
@@ -3956,6 +4320,13 @@ ecc-jsbn@~0.1.1:
     jsbn "~0.1.0"
     safer-buffer "^2.1.0"
 
+ecdsa-sig-formatter@1.0.11, ecdsa-sig-formatter@^1.0.11:
+  version "1.0.11"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/ecdsa-sig-formatter/-/ecdsa-sig-formatter-1.0.11.tgz#ae0f0fa2d85045ef14a817daa3ce9acd0489e5bf"
+  integrity sha1-rg8PothQRe8UqBfao86azQSJ5b8=
+  dependencies:
+    safe-buffer "^5.0.1"
+
 ee-first@1.1.1:
   version "1.1.1"
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
@@ -4003,6 +4374,13 @@ encodeurl@~1.0.2:
   version "1.0.2"
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/encodeurl/-/encodeurl-1.0.2.tgz#ad3ff4c86ec2d029322f5a02c3a9a606c95b3f59"
   integrity sha1-rT/0yG7C0CkyL1oCw6mmBslbP1k=
+
+encoding@^0.1.11:
+  version "0.1.13"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/encoding/-/encoding-0.1.13.tgz#56574afdd791f54a8e9b2785c0582a2d26210fa9"
+  integrity sha1-VldK/deR9UqOmyeFwFgqLSYhD6k=
+  dependencies:
+    iconv-lite "^0.6.2"
 
 end-of-stream@^1.0.0, end-of-stream@^1.1.0:
   version "1.4.4"
@@ -4369,6 +4747,11 @@ etag@~1.8.1:
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/etag/-/etag-1.8.1.tgz#41ae2eeb65efa62268aebfea83ac7d79299b0887"
   integrity sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc=
 
+event-target-shim@^5.0.0:
+  version "5.0.1"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/event-target-shim/-/event-target-shim-5.0.1.tgz#5d4d3ebdf9583d63a5333ce2deb7480ab2b05789"
+  integrity sha1-XU0+vflYPWOlMzzi3rdICrKwV4k=
+
 eventemitter3@^4.0.0:
   version "4.0.7"
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/eventemitter3/-/eventemitter3-4.0.7.tgz#2de9b68f6528d5644ef5c59526a1b4a07306169f"
@@ -4500,7 +4883,7 @@ extend-shallow@^3.0.0, extend-shallow@^3.0.2:
     assign-symbols "^1.0.0"
     is-extendable "^1.0.1"
 
-extend@~3.0.2:
+extend@^3.0.2, extend@~3.0.2:
   version "3.0.2"
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/extend/-/extend-3.0.2.tgz#f8b1136b4071fbd8eb140aff858b1019ec2915fa"
   integrity sha1-+LETa0Bx+9jrFAr/hYsQGewpFfo=
@@ -4565,17 +4948,22 @@ fast-levenshtein@~2.0.6:
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
   integrity sha1-PYpcZog6FqMMqGQ+hR8Zuqd5eRc=
 
+fast-text-encoding@^1.0.0:
+  version "1.0.3"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/fast-text-encoding/-/fast-text-encoding-1.0.3.tgz#ec02ac8e01ab8a319af182dae2681213cfe9ce53"
+  integrity sha1-7AKsjgGrijGa8YLa4mgSE8/pzlM=
+
+faye-websocket@0.11.3, faye-websocket@~0.11.1:
+  version "0.11.3"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/faye-websocket/-/faye-websocket-0.11.3.tgz#5c0e9a8968e8912c286639fde977a8b209f2508e"
+  integrity sha1-XA6aiWjokSwoZjn96XeosgnyUI4=
+  dependencies:
+    websocket-driver ">=0.5.1"
+
 faye-websocket@^0.10.0:
   version "0.10.0"
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/faye-websocket/-/faye-websocket-0.10.0.tgz#4e492f8d04dfb6f89003507f6edbf2d501e7c6f4"
   integrity sha1-TkkvjQTftviQA1B/btvy1QHnxvQ=
-  dependencies:
-    websocket-driver ">=0.5.1"
-
-faye-websocket@~0.11.1:
-  version "0.11.3"
-  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/faye-websocket/-/faye-websocket-0.11.3.tgz#5c0e9a8968e8912c286639fde977a8b209f2508e"
-  integrity sha1-XA6aiWjokSwoZjn96XeosgnyUI4=
   dependencies:
     websocket-driver ">=0.5.1"
 
@@ -4680,7 +5068,7 @@ find-cache-dir@^3.3.1:
     make-dir "^3.0.2"
     pkg-dir "^4.1.0"
 
-find-up@4.1.0, find-up@^4.0.0:
+find-up@4.1.0, find-up@^4.0.0, find-up@^4.1.0:
   version "4.1.0"
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/find-up/-/find-up-4.1.0.tgz#97afe7d6cdc0bc5928584b7c8d7b16e8a9aa5d19"
   integrity sha1-l6/n1s3AvFkoWEt8jXsW6KmqXRk=
@@ -4709,6 +5097,26 @@ find-up@^3.0.0:
   integrity sha1-SRafHXmTQwZG2mHsxa41XCHJe3M=
   dependencies:
     locate-path "^3.0.0"
+
+firebase@^7.21.1:
+  version "7.21.1"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/firebase/-/firebase-7.21.1.tgz#45c92d6c53136a07d637e9da227726460e86e746"
+  integrity sha1-RcktbFMTagfWN+naIncmRg6G50Y=
+  dependencies:
+    "@firebase/analytics" "0.5.0"
+    "@firebase/app" "0.6.11"
+    "@firebase/app-types" "0.6.1"
+    "@firebase/auth" "0.14.9"
+    "@firebase/database" "0.6.13"
+    "@firebase/firestore" "1.17.1"
+    "@firebase/functions" "0.4.51"
+    "@firebase/installations" "0.4.17"
+    "@firebase/messaging" "0.7.1"
+    "@firebase/performance" "0.4.1"
+    "@firebase/polyfill" "0.3.36"
+    "@firebase/remote-config" "0.1.28"
+    "@firebase/storage" "0.3.43"
+    "@firebase/util" "0.3.2"
 
 flat-cache@^2.0.1:
   version "2.0.1"
@@ -4889,6 +5297,25 @@ functional-red-black-tree@^1.0.1:
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
   integrity sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=
 
+gaxios@^3.0.0:
+  version "3.2.0"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/gaxios/-/gaxios-3.2.0.tgz#11b6f0e8fb08d94a10d4d58b044ad3bec6dd486a"
+  integrity sha1-Ebbw6PsI2UoQ1NWLBErTvsbdSGo=
+  dependencies:
+    abort-controller "^3.0.0"
+    extend "^3.0.2"
+    https-proxy-agent "^5.0.0"
+    is-stream "^2.0.0"
+    node-fetch "^2.3.0"
+
+gcp-metadata@^4.1.0:
+  version "4.2.0"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/gcp-metadata/-/gcp-metadata-4.2.0.tgz#3b424355ccdc240ee07c5791e2fd6a60a283d89a"
+  integrity sha1-O0JDVczcJA7gfFeR4v1qYKKD2Jo=
+  dependencies:
+    gaxios "^3.0.0"
+    json-bigint "^1.0.0"
+
 gensync@^1.0.0-beta.1:
   version "1.0.0-beta.1"
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/gensync/-/gensync-1.0.0-beta.1.tgz#58f4361ff987e5ff6e1e7a210827aa371eaac269"
@@ -5007,6 +5434,28 @@ globby@^6.1.0:
     pify "^2.0.0"
     pinkie-promise "^2.0.0"
 
+google-auth-library@^6.0.0:
+  version "6.1.0"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/google-auth-library/-/google-auth-library-6.1.0.tgz#db3bbe2b3add5783442c84efdcb1c061721c1bfb"
+  integrity sha1-2zu+KzrdV4NELITv3LHAYXIcG/s=
+  dependencies:
+    arrify "^2.0.0"
+    base64-js "^1.3.0"
+    ecdsa-sig-formatter "^1.0.11"
+    fast-text-encoding "^1.0.0"
+    gaxios "^3.0.0"
+    gcp-metadata "^4.1.0"
+    gtoken "^5.0.0"
+    jws "^4.0.0"
+    lru-cache "^6.0.0"
+
+google-p12-pem@^3.0.0:
+  version "3.0.3"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/google-p12-pem/-/google-p12-pem-3.0.3.tgz#673ac3a75d3903a87f05878f3c75e06fc151669e"
+  integrity sha1-ZzrDp105A6h/BYePPHXgb8FRZp4=
+  dependencies:
+    node-forge "^0.10.0"
+
 graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0, graceful-fs@^4.2.2:
   version "4.2.4"
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/graceful-fs/-/graceful-fs-4.2.4.tgz#2256bde14d3632958c465ebc96dc467ca07a29fb"
@@ -5016,6 +5465,16 @@ growly@^1.3.0:
   version "1.3.0"
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/growly/-/growly-1.3.0.tgz#f10748cbe76af964b7c96c93c6bcc28af120c081"
   integrity sha1-8QdIy+dq+WS3yWyTxrzCivEgwIE=
+
+gtoken@^5.0.0:
+  version "5.0.3"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/gtoken/-/gtoken-5.0.3.tgz#b76ef8e9a2fed6fef165e47f7d05b60c498e4d05"
+  integrity sha1-t2746aL+1v7xZeR/fQW2DEmOTQU=
+  dependencies:
+    gaxios "^3.0.0"
+    google-p12-pem "^3.0.0"
+    jws "^4.0.0"
+    mime "^2.2.0"
 
 gzip-size@5.1.1:
   version "5.1.1"
@@ -5303,6 +5762,14 @@ https-browserify@^1.0.0:
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/https-browserify/-/https-browserify-1.0.0.tgz#ec06c10e0a34c0f2faf199f7fd7fc78fffd03c73"
   integrity sha1-7AbBDgo0wPL68Zn3/X/Hj//QPHM=
 
+https-proxy-agent@^5.0.0:
+  version "5.0.0"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/https-proxy-agent/-/https-proxy-agent-5.0.0.tgz#e2a90542abb68a762e0a0850f6c9edadfd8506b2"
+  integrity sha1-4qkFQqu2inYuCghQ9sntrf2FBrI=
+  dependencies:
+    agent-base "6"
+    debug "4"
+
 iconv-lite@0.4.24, iconv-lite@^0.4.24:
   version "0.4.24"
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/iconv-lite/-/iconv-lite-0.4.24.tgz#2022b4b25fbddc21d2f524974a474aafe733908b"
@@ -5310,12 +5777,24 @@ iconv-lite@0.4.24, iconv-lite@^0.4.24:
   dependencies:
     safer-buffer ">= 2.1.2 < 3"
 
+iconv-lite@^0.6.2:
+  version "0.6.2"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/iconv-lite/-/iconv-lite-0.6.2.tgz#ce13d1875b0c3a674bd6a04b7f76b01b1b6ded01"
+  integrity sha1-zhPRh1sMOmdL1qBLf3awGxtt7QE=
+  dependencies:
+    safer-buffer ">= 2.1.2 < 3.0.0"
+
 icss-utils@^4.0.0, icss-utils@^4.1.1:
   version "4.1.1"
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/icss-utils/-/icss-utils-4.1.1.tgz#21170b53789ee27447c2f47dd683081403f9a467"
   integrity sha1-IRcLU3ie4nRHwvR91oMIFAP5pGc=
   dependencies:
     postcss "^7.0.14"
+
+idb@3.0.2:
+  version "3.0.2"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/idb/-/idb-3.0.2.tgz#c8e9122d5ddd40f13b60ae665e4862f8b13fa384"
+  integrity sha1-yOkSLV3dQPE7YK5mXkhi+LE/o4Q=
 
 identity-obj-proxy@3.0.0:
   version "3.0.0"
@@ -5767,10 +6246,15 @@ is-root@2.1.0:
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/is-root/-/is-root-2.1.0.tgz#809e18129cf1129644302a4f8544035d51984a9c"
   integrity sha1-gJ4YEpzxEpZEMCpPhUQDXVGYSpw=
 
-is-stream@^1.1.0:
+is-stream@^1.0.1, is-stream@^1.1.0:
   version "1.1.0"
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/is-stream/-/is-stream-1.1.0.tgz#12d4a3dd4e68e0b79ceb8dbc84173ae80d91ca44"
   integrity sha1-EtSj3U5o4Lec6428hBc66A2RykQ=
+
+is-stream@^2.0.0:
+  version "2.0.0"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/is-stream/-/is-stream-2.0.0.tgz#bde9c32680d6fae04129d6ac9d921ce7815f78e3"
+  integrity sha1-venDJoDW+uBBKdasnZIc54FfeOM=
 
 is-string@^1.0.5:
   version "1.0.5"
@@ -5834,6 +6318,14 @@ isobject@^3.0.0, isobject@^3.0.1:
   version "3.0.1"
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
   integrity sha1-TkMekrEalzFjaqH5yNHMvP2reN8=
+
+isomorphic-fetch@2.2.1:
+  version "2.2.1"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/isomorphic-fetch/-/isomorphic-fetch-2.2.1.tgz#611ae1acf14f5e81f729507472819fe9733558a9"
+  integrity sha1-YRrhrPFPXoH3KVB0coGf6XM1WKk=
+  dependencies:
+    node-fetch "^1.0.1"
+    whatwg-fetch ">=0.10.0"
 
 isstream@~0.1.2:
   version "0.1.2"
@@ -6369,6 +6861,13 @@ jsesc@~0.5.0:
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/jsesc/-/jsesc-0.5.0.tgz#e7dee66e35d6fc16f710fe91d5cf69f70f08911d"
   integrity sha1-597mbjXW/Bb3EP6R1c9p9w8IkR0=
 
+json-bigint@^1.0.0:
+  version "1.0.0"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/json-bigint/-/json-bigint-1.0.0.tgz#ae547823ac0cad8398667f8cd9ef4730f5b01ff1"
+  integrity sha1-rlR4I6wMrYOYZn+M2e9HMPWwH/E=
+  dependencies:
+    bignumber.js "^9.0.0"
+
 json-parse-better-errors@^1.0.1, json-parse-better-errors@^1.0.2:
   version "1.0.2"
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/json-parse-better-errors/-/json-parse-better-errors-1.0.2.tgz#bb867cfb3450e69107c131d1c514bab3dc8bcaa9"
@@ -6454,6 +6953,23 @@ jsx-ast-utils@^2.2.1, jsx-ast-utils@^2.2.3:
   dependencies:
     array-includes "^3.1.1"
     object.assign "^4.1.0"
+
+jwa@^2.0.0:
+  version "2.0.0"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/jwa/-/jwa-2.0.0.tgz#a7e9c3f29dae94027ebcaf49975c9345593410fc"
+  integrity sha1-p+nD8p2ulAJ+vK9Jl1yTRVk0EPw=
+  dependencies:
+    buffer-equal-constant-time "1.0.1"
+    ecdsa-sig-formatter "1.0.11"
+    safe-buffer "^5.0.1"
+
+jws@^4.0.0:
+  version "4.0.0"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/jws/-/jws-4.0.0.tgz#2d4e8cf6a318ffaa12615e9dec7e86e6c97310f4"
+  integrity sha1-LU6M9qMY/6oSYV6d7H6G5slzEPQ=
+  dependencies:
+    jwa "^2.0.0"
+    safe-buffer "^5.0.1"
 
 killable@^1.0.1:
   version "1.0.1"
@@ -6623,6 +7139,11 @@ lodash._reinterpolate@^3.0.0:
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/lodash._reinterpolate/-/lodash._reinterpolate-3.0.0.tgz#0ccf2d89166af03b3663c796538b75ac6e114d9d"
   integrity sha1-DM8tiRZq8Ds2Y8eWU4t1rG4RTZ0=
 
+lodash.camelcase@^4.3.0:
+  version "4.3.0"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/lodash.camelcase/-/lodash.camelcase-4.3.0.tgz#b28aa6288a2b9fc651035c7711f65ab6190331a6"
+  integrity sha1-soqmKIorn8ZRA1x3EfZathkDMaY=
+
 lodash.memoize@^4.1.2:
   version "4.1.2"
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/lodash.memoize/-/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
@@ -6663,6 +7184,11 @@ loglevel@^1.6.8:
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/loglevel/-/loglevel-1.7.0.tgz#728166855a740d59d38db01cf46f042caa041bb0"
   integrity sha1-coFmhVp0DVnTjbAc9G8ELKoEG7A=
 
+long@^4.0.0:
+  version "4.0.0"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/long/-/long-4.0.0.tgz#9a7b71cfb7d361a194ea555241c92f7468d5bf28"
+  integrity sha1-mntxz7fTYaGU6lVSQckvdGjVvyg=
+
 loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.4.0:
   version "1.4.0"
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
@@ -6683,6 +7209,13 @@ lru-cache@^5.1.1:
   integrity sha1-HaJ+ZxAnGUdpXa9oSOhH8B2EuSA=
   dependencies:
     yallist "^3.0.2"
+
+lru-cache@^6.0.0:
+  version "6.0.0"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/lru-cache/-/lru-cache-6.0.0.tgz#6d6fe6570ebd96aaf90fcad1dafa3b2566db3a94"
+  integrity sha1-bW/mVw69lqr5D8rR2vo7JWbbOpQ=
+  dependencies:
+    yallist "^4.0.0"
 
 make-dir@^2.0.0, make-dir@^2.1.0:
   version "2.1.0"
@@ -6846,7 +7379,7 @@ mime@1.6.0:
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/mime/-/mime-1.6.0.tgz#32cd9e5c64553bd58d19a568af452acff04981b1"
   integrity sha1-Ms2eXGRVO9WNGaVor0Uqz/BJgbE=
 
-mime@^2.4.4:
+mime@^2.2.0, mime@^2.4.4:
   version "2.4.6"
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/mime/-/mime-2.4.6.tgz#e5b407c90db442f2beb5b162373d07b69affa4d1"
   integrity sha1-5bQHyQ20QvK+tbFiNz0Htpr/pNE=
@@ -7059,6 +7592,19 @@ no-case@^3.0.3:
   dependencies:
     lower-case "^2.0.1"
     tslib "^1.10.0"
+
+node-fetch@2.6.1, node-fetch@^2.3.0:
+  version "2.6.1"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
+  integrity sha1-BFvTI2Mfdu0uK1VXM5RBa2OaAFI=
+
+node-fetch@^1.0.1:
+  version "1.7.3"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/node-fetch/-/node-fetch-1.7.3.tgz#980f6f72d85211a5347c6b2bc18c5b84c3eb47ef"
+  integrity sha1-mA9vcthSEaU0fGsrwYxbhMPrR+8=
+  dependencies:
+    encoding "^0.1.11"
+    is-stream "^1.0.1"
 
 node-forge@^0.10.0:
   version "0.10.0"
@@ -8478,6 +9024,11 @@ promise-inflight@^1.0.1:
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/promise-inflight/-/promise-inflight-1.0.1.tgz#98472870bf228132fcbdd868129bad12c3c029e3"
   integrity sha1-mEcocL8igTL8vdhoEputEsPAKeM=
 
+promise-polyfill@8.1.3:
+  version "8.1.3"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/promise-polyfill/-/promise-polyfill-8.1.3.tgz#8c99b3cf53f3a91c68226ffde7bde81d7f904116"
+  integrity sha1-jJmzz1PzqRxoIm/9573oHX+QQRY=
+
 promise@^8.0.3:
   version "8.1.0"
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/promise/-/promise-8.1.0.tgz#697c25c3dfe7435dd79fcd58c38a135888eaf05e"
@@ -8501,6 +9052,25 @@ prop-types@^15.6.2, prop-types@^15.7.2:
     loose-envify "^1.4.0"
     object-assign "^4.1.1"
     react-is "^16.8.1"
+
+protobufjs@^6.8.6, protobufjs@^6.9.0:
+  version "6.10.1"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/protobufjs/-/protobufjs-6.10.1.tgz#e6a484dd8f04b29629e9053344e3970cccf13cd2"
+  integrity sha1-5qSE3Y8EspYp6QUzROOXDMzxPNI=
+  dependencies:
+    "@protobufjs/aspromise" "^1.1.2"
+    "@protobufjs/base64" "^1.1.2"
+    "@protobufjs/codegen" "^2.0.4"
+    "@protobufjs/eventemitter" "^1.1.0"
+    "@protobufjs/fetch" "^1.1.0"
+    "@protobufjs/float" "^1.0.2"
+    "@protobufjs/inquire" "^1.1.0"
+    "@protobufjs/path" "^1.1.2"
+    "@protobufjs/pool" "^1.1.0"
+    "@protobufjs/utf8" "^1.1.0"
+    "@types/long" "^4.0.1"
+    "@types/node" "^13.7.0"
+    long "^4.0.0"
 
 proxy-addr@~2.0.5:
   version "2.0.6"
@@ -8703,6 +9273,11 @@ react-error-overlay@^6.0.7:
   version "6.0.7"
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/react-error-overlay/-/react-error-overlay-6.0.7.tgz#1dcfb459ab671d53f660a991513cb2f0a0553108"
   integrity sha1-Hc+0WatnHVP2YKmRUTyy8KBVMQg=
+
+react-firebase-hooks@^2.2.0:
+  version "2.2.0"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/react-firebase-hooks/-/react-firebase-hooks-2.2.0.tgz#a2cea46d3da94619e8a316b85173638698ef7d2b"
+  integrity sha1-os6kbT2pRhnooxa4UXNjhpjvfSs=
 
 react-is@^16.12.0, react-is@^16.8.1, react-is@^16.8.4:
   version "16.13.1"
@@ -9205,7 +9780,7 @@ safe-regex@^1.1.0:
   dependencies:
     ret "~0.1.10"
 
-"safer-buffer@>= 2.1.2 < 3", safer-buffer@^2.0.2, safer-buffer@^2.1.0, safer-buffer@~2.1.0:
+"safer-buffer@>= 2.1.2 < 3", "safer-buffer@>= 2.1.2 < 3.0.0", safer-buffer@^2.0.2, safer-buffer@^2.1.0, safer-buffer@~2.1.0:
   version "2.1.2"
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha1-RPoWGwGHuVSd2Eu5GAL5vYOFzWo=
@@ -9776,7 +10351,7 @@ string-width@^3.0.0, string-width@^3.1.0:
     is-fullwidth-code-point "^2.0.0"
     strip-ansi "^5.1.0"
 
-string-width@^4.1.0:
+string-width@^4.1.0, string-width@^4.2.0:
   version "4.2.0"
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/string-width/-/string-width-4.2.0.tgz#952182c46cc7b2c313d1596e623992bd163b72b5"
   integrity sha1-lSGCxGzHssMT0VluYjmSvRY7crU=
@@ -10154,7 +10729,7 @@ ts-pnp@^1.1.6:
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/ts-pnp/-/ts-pnp-1.2.0.tgz#a500ad084b0798f1c3071af391e65912c86bca92"
   integrity sha1-pQCtCEsHmPHDBxrzkeZZEshrypI=
 
-tslib@^1.10.0, tslib@^1.8.1, tslib@^1.9.0:
+tslib@^1.10.0, tslib@^1.11.1, tslib@^1.8.1, tslib@^1.9.0:
   version "1.13.0"
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/tslib/-/tslib-1.13.0.tgz#c881e13cc7015894ed914862d276436fa9a47043"
   integrity sha1-yIHhPMcBWJTtkUhi0nZDb6mkcEM=
@@ -10630,7 +11205,12 @@ whatwg-encoding@^1.0.1, whatwg-encoding@^1.0.3, whatwg-encoding@^1.0.5:
   dependencies:
     iconv-lite "0.4.24"
 
-whatwg-fetch@^3.0.0:
+whatwg-fetch@2.0.4:
+  version "2.0.4"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/whatwg-fetch/-/whatwg-fetch-2.0.4.tgz#dde6a5df315f9d39991aa17621853d720b85566f"
+  integrity sha1-3eal3zFfnTmZGqF2IYU9cguFVm8=
+
+whatwg-fetch@>=0.10.0, whatwg-fetch@^3.0.0:
   version "3.4.1"
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/whatwg-fetch/-/whatwg-fetch-3.4.1.tgz#e5f871572d6879663fa5674c8f833f15a8425ab3"
   integrity sha1-5fhxVy1oeWY/pWdMj4M/FahCWrM=
@@ -10840,6 +11420,15 @@ wrap-ansi@^5.1.0:
     string-width "^3.0.0"
     strip-ansi "^5.0.0"
 
+wrap-ansi@^6.2.0:
+  version "6.2.0"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/wrap-ansi/-/wrap-ansi-6.2.0.tgz#e9393ba07102e6c91a3b221478f0257cd2856e53"
+  integrity sha1-6Tk7oHEC5skaOyIUePAlfNKFblM=
+  dependencies:
+    ansi-styles "^4.0.0"
+    string-width "^4.1.0"
+    strip-ansi "^6.0.0"
+
 wrappy@1:
   version "1.0.2"
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
@@ -10885,6 +11474,11 @@ xmlchars@^2.1.1:
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/xmlchars/-/xmlchars-2.2.0.tgz#060fe1bcb7f9c76fe2a17db86a9bc3ab894210cb"
   integrity sha1-Bg/hvLf5x2/ioX24apvDq4lCEMs=
 
+xmlhttprequest@1.8.0:
+  version "1.8.0"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/xmlhttprequest/-/xmlhttprequest-1.8.0.tgz#67fe075c5c24fef39f9d65f5f7b7fe75171968fc"
+  integrity sha1-Z/4HXFwk/vOfnWX197f+dRcZaPw=
+
 xregexp@^4.3.0:
   version "4.3.0"
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/xregexp/-/xregexp-4.3.0.tgz#7e92e73d9174a99a59743f67a4ce879a04b5ae50"
@@ -10925,6 +11519,14 @@ yargs-parser@^13.1.2:
     camelcase "^5.0.0"
     decamelize "^1.2.0"
 
+yargs-parser@^18.1.2:
+  version "18.1.3"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/yargs-parser/-/yargs-parser-18.1.3.tgz#be68c4975c6b2abf469236b0c870362fab09a7b0"
+  integrity sha1-vmjEl1xrKr9GkjawyHA2L6sJp7A=
+  dependencies:
+    camelcase "^5.0.0"
+    decamelize "^1.2.0"
+
 yargs@^13.3.0, yargs@^13.3.2:
   version "13.3.2"
   resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/yargs/-/yargs-13.3.2.tgz#ad7ffefec1aa59565ac915f82dccb38a9c31a2dd"
@@ -10940,3 +11542,20 @@ yargs@^13.3.0, yargs@^13.3.2:
     which-module "^2.0.0"
     y18n "^4.0.0"
     yargs-parser "^13.1.2"
+
+yargs@^15.3.1:
+  version "15.4.1"
+  resolved "https://artifactory.mnemonic.no:443/artifactory/api/npm/npm-all/yargs/-/yargs-15.4.1.tgz#0d87a16de01aee9d8bec2bfbf74f67851730f4f8"
+  integrity sha1-DYehbeAa7p2L7Cv7909nhRcw9Pg=
+  dependencies:
+    cliui "^6.0.0"
+    decamelize "^1.2.0"
+    find-up "^4.1.0"
+    get-caller-file "^2.0.1"
+    require-directory "^2.1.1"
+    require-main-filename "^2.0.0"
+    set-blocking "^2.0.0"
+    string-width "^4.2.0"
+    which-module "^2.0.0"
+    y18n "^4.0.0"
+    yargs-parser "^18.1.2"
